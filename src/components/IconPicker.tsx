@@ -23,7 +23,7 @@ const IconPicker: React.FC<IconPickerProps> = ({
   pickerHeight = 500,
   pickerWidth = 500,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [selectedIcon, setSelectedIcon] = useState<string | null>(null);
   const [page, setPage] = useState(0);
 
